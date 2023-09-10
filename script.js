@@ -7,8 +7,12 @@ function enviar(){
         
     }else{
         document.querySelector('.mostrar').style.display = 'block';
+        document.getElementById("alerta1").innerHTML = " "
     }
+
 }
+    
+    
 function si(){
     const name = (document.getElementById("name").value);
     swal.fire('Gracias bb!😍', `Teamo ${name}💕`, 'success');
